@@ -33,11 +33,11 @@
     },
     "habitEdit_habitDailyGoalUnit_hintText": "שם יחידה למטרה היומית",
     "habitEdit_frequencySelector_title": "נא לבחור תדירות",
-    "habitEdit_habitFreq_daily": "יומית",
+    "habitEdit_habitFreq_daily": "",
     "habitEdit_habitFreq_perweek_text": "%%time%% פעמים בשבוע",
     "habitEdit_habitFreq_permonth_text": "%%time%% פעמים בחודש",
-    "habitEdit_habitFreq_predayfreq_text": "%%time%% פעמים ב %%day%% ימים",
-    "habitEdit_habitFreq_show_daily": "יומית",
+    "habitEdit_habitFreq_predayfreq_text": "%%time%% פעמים ב־%%day%% ימים",
+    "habitEdit_habitFreq_show_daily": "",
     "habitEdit_targetDays_title": "{targetDays} ימים",
     "@habitEdit_targetDays_title": {
         "placeholders": {
@@ -72,7 +72,7 @@
         }
     },
     "habitEdit_reminderQuest_hintText": "שאלה, למשל: עשית היום כושר?",
-    "habitEdit_reminder_dialogType_daily": "יומית",
+    "habitEdit_reminder_dialogType_daily": "מטרה יומית",
     "habitEdit_reminder_dialogType_week": "לפי שבוע",
     "habitEdit_reminder_dialogType_month": "לפי חודש",
     "habitEdit_reminder_cancelDialogTitle": "אישור",
@@ -87,7 +87,7 @@
     "habitEdit_create_datetime_prefix": "נוצר בתאריך: ",
     "habitEdit_modify_datetime_prefix": "שונה בתאריך: ",
     "habitDisplay_fab_text": "יצירת הרגל",
-    "habitDisplay_emptyImage_text_01": "גם רומא לא נבנתה ביום אחד",
+    "habitDisplay_emptyImage_text_01": "מסע של אלף מיל מתחיל בצעד אחד",
     "habitDisplay_archiveHabitsConfirmDialog_title": "להעביר את הארכיונים שנבחרו לארכיון?",
     "habitDisplay_deleteHabitsConfirmDialog_title": "למחוק את ההרגלים שנבחרו?",
     "habitDisplay_editPopMenu_selectAll": "לבחור הכול",
@@ -203,5 +203,150 @@
         }
     },
     "appSync_nowTile_syncingText": "מתבצע סנכרון...",
-    "appSync_nowTile_cancellingText": "בתהליך ביטול..."
+    "appSync_nowTile_cancellingText": "בתהליך ביטול...",
+    "habitDisplay_notFoundImage_text_01": "לא נמצאו הרגלים תואמים",
+    "@habitDisplay_notFoundImage_text_01": {
+        "description": "Displayed when no habits match the current search"
+    },
+    "habitDisplay_notFoundImage_text_02": "לא נמצאו הרגלים שתואמים לחיפוש „{keyword}”",
+    "@habitDisplay_notFoundImage_text_02": {
+        "description": "Displayed when no habits match the specified keyword",
+        "placeholders": {
+            "keyword": {
+                "type": "String",
+                "description": "Search keyword"
+            }
+        }
+    },
+    "habitDisplay_archiveHabitsConfirmDialog_confirm": "אישור",
+    "habitDisplay_archiveHabitsConfirmDialog_cancel": "ביטול",
+    "habitDisplay_unarchiveHabitsConfirmDialog_confirm": "אישור",
+    "habitDisplay_unarchiveHabitsConfirmDialog_cancel": "ביטול",
+    "habitDisplay_deleteHabitsConfirmDialog_confirm": "אישור",
+    "habitDisplay_deleteHabitsConfirmDialog_cancel": "ביטול",
+    "habitDisplay_debug_debugSubgroup_title": "🛠️ ניפוי שגיאות",
+    "habitDisplay_searchBar_hintText": "חיפוש הרגלים",
+    "habitDisplay_searchFilter_ongoing": "בתהליך",
+    "habitDisplay_searchFilter_tooltips": "הצגת מסננים",
+    "habitDisplay_searchFilter_clearFilter": "ניקוי מסננים",
+    "habitDisplay_tab_habits_label": "הרגלים",
+    "habitDisplay_tab_today_label": "היום",
+    "habitToday_appBar_title": "היום",
+    "habitToday_image_desc": "כל הכבוד",
+    "@habitToday_image_desc": {
+        "description": "Celebratory text shown when the user completes all their habit tasks for today"
+    },
+    "habitToday_card_subtitle_text": "הצלחת למשך {days} ימים",
+    "@habitToday_card_subtitle_text": {
+        "placeholders": {
+            "days": {
+                "type": "int",
+                "description": "Days since the chosen start date"
+            }
+        }
+    },
+    "habitDetail_editButton_tooltip": "עריכה",
+    "habitDetail_confirmDialog_confirm": "אישור",
+    "habitDetail_confirmDialog_cancel": "ביטול",
+    "habitDetail_otherSubgroup_title": "שונות",
+    "appSetting_developMode_titleText": "מצב מפתחים",
+    "appSetting_about_titleText": "על אודות",
+    "appSetting_experimentalFeatureTile_titleText": "תכונות ניסיוניות",
+    "appSetting_synSubgroupText": "סנכרון",
+    "appSetting_syncOption_titleText": "אפשרויות סנכרון",
+    "appSetting_notify_titleTile": "התראות",
+    "appSync_webdav_newServerConfirmDialog_titleText": "מיקום חדש",
+    "appSync_webdav_oldServerConfirmDialog_confirmText": "אישור מיזוג",
+    "appSync_serverEditor_deleteDialog_titleText": "אישור מחיקה",
+    "appSync_serverEditor_pathTile_titleText": "נתיב",
+    "appSync_serverEditor_usernameTile_titleText": "שם משתמש",
+    "appSync_serverEditor_passwordTile_titleText": "סיסמה",
+    "appSync_noti_readyToSync_body": "בהכנות לסנכרון...",
+    "appAbout_appbarTile_titleText": "על אודות",
+    "appAbout_versionTile_titleText": "גרסה: {appVersion}",
+    "@appAbout_versionTile_titleText": {
+        "placeholders": {
+            "appVersion": {
+                "type": "String",
+                "example": "1.0.0"
+            }
+        }
+    },
+    "appAbout_sourceCodeTile_titleText": "קוד מקור",
+    "appAbout_issueTrackerTile_titleText": "מעקב אחר תקלות",
+    "appAbout_contactEmailTile_titleText": "יצירת קשר עם המפתח",
+    "appAbout_licenseTile_titleText": "רישיון",
+    "appAbout_privacyTile_titleText": "פרטיות",
+    "appAbout_donateTile_titleText": "תרומה",
+    "donateWay_cryptoCurrency": "מטבעות קריפטו",
+    "batchCheckin_datePicker_prevButton_tooltip": "היום הקודם",
+    "batchCheckin_datePicker_nextButton_tooltip": "היום הבא",
+    "batchCheckin_status_skip_text": "דילוג",
+    "batchCheckin_status_ok_text": "הושלם",
+    "batchCheckin_status_zero_text": "לא הושלם",
+    "batchCheckin_save_button_text": "שמירה",
+    "batchCheckin_reset_button_text": "איפוס",
+    "appReminder_dailyReminder_title": "🏝 האם דבקת בהרגלים שלך היום?",
+    "common_habitColorType_cc2": "אדום",
+    "common_habitColorType_cc3": "סגול",
+    "common_habitColorType_cc4": "כחול רויאל",
+    "common_habitColorType_cc6": "ירוק",
+    "common_habitColorType_cc7": "ענבר",
+    "common_habitColorType_cc8": "כתום",
+    "common_appThemeColor_system": "מערכת",
+    "common_appThemeColor_primary": "ראשי",
+    "common_appThemeColor_dynamic": "דינמי",
+    "common_customDateTimeFormatPicker_useSystemFormat_text": "שימוש בתבניות המערכת",
+    "common_customDateTimeFormatPicker_fmtTileText": "תבניות תאריכים",
+    "common_customDateTimeFormatPicker_ymd_text": "שנה חודש יום",
+    "common_customDateTimeFormatPicker_mdy_text": "חודש יום שנה",
+    "common_customDateTimeFormatPicker_dmy_text": "יום חודש שנה",
+    "common_customDateTimeFormatPicker_12Hour_text": "שימוש בתבנית 12 שעות",
+    "common_customDateTimeFormatPicker_applyHeapmap_text": "החלה על לוח השנה",
+    "common_errorPage_title": "אופס, קרסנו!",
+    "common_errorPage_copied": "מידע הקריסה הועתק",
+    "common_enable_text": "מופעל",
+    "calendarPicker_clip_today": "היום",
+    "calendarPicker_clip_tomorrow": "מחר",
+    "calendarPicker_clip_after7Days": "{date} הבא",
+    "@calendarPicker_clip_after7Days": {
+        "placeholders": {
+            "date": {
+                "type": "DateTime",
+                "format": "E"
+            }
+        }
+    },
+    "exportConfirmDialog_title_exportAll": "לייצא את כל ההרגלים?",
+    "debug_logLevel_debug": "ניפוי שגיאות",
+    "debug_logLevel_info": "מידע",
+    "debug_logLevel_warn": "אזהרה",
+    "debug_logLevel_error": "שגיאה",
+    "debug_logLevel_fatal": "שגיאה חמורה",
+    "debug_debuggerLogCard_saveButton_text": "הורדה",
+    "debug_debuggerLogCard_clearButton_text": "ניקוי",
+    "debug_debuggerInfoCard_title": "מידע על ניפוי השגיאות",
+    "debug_debuggerInfoCard_openButton_text": "פתיחה",
+    "debug_debuggerInfoCard_saveButton_text": "שמירה",
+    "debug_debuggerInfo_notificationTitle": "נאסף מידע על היישום...",
+    "confirmDialog_cancel_text": "ביטול",
+    "snackbar_undoText": "ביטול",
+    "snackbar_dismissText": "ביטול",
+    "contributors_tile_title": "תורמים",
+    "userAction_tap": "הקשה",
+    "userAction_doubleTap": "הקשה כפולה",
+    "userAction_longTap": "הקשה ארוכה",
+    "channelName_habitReminder": "תזכורת להרגל",
+    "channelName_appDebugger": "כלי ניפוי שגיאות",
+    "channelName_appSyncFailed": "הסנכרון נכשל",
+    "appAbout_donateTile_subTitleText": "אני מפתח עצמאי. אם אהבת את היישום, אפשר לקנות לי ☕.",
+    "habitDetail_changeGoal_helpText": "מטרה יומית, ברירת מחדל: {goal}",
+    "@habitDetail_changeGoal_helpText": {
+        "placeholders": {
+            "goal": {
+                "type": "String",
+                "example": "1.5"
+            }
+        }
+    }
 }
