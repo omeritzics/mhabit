@@ -348,5 +348,45 @@
                 "example": "1.5"
             }
         }
+    },
+    "habitEdit_habitDailyGoal_errorText01": "על החובה היומית להיות גדולה מ־{number}",
+    "@habitEdit_habitDailyGoal_errorText01": {
+        "description": "minimum number for habit daily goal",
+        "placeholders": {
+            "number": {
+                "type": "num",
+                "example": "0"
+            }
+        }
+    },
+    "habitEdit_habitDailyGoal_errorText02": "על החובה היומית להיות קטנה או שווה ל־{number}",
+    "@habitEdit_habitDailyGoal_errorText02": {
+        "description": "maximum number for habit daily goal",
+        "placeholders": {
+            "number": {
+                "type": "num",
+                "example": "0"
+            }
+        }
+    },
+    "habitEdit_habitDailyGoal_negativeErrorText01": "על החובה היומית להיות גדולה או שווה ל־{number}",
+    "@habitEdit_habitDailyGoal_negativeErrorText01": {
+        "description": "minimum number for negative habit daily goal",
+        "placeholders": {
+            "number": {
+                "type": "num",
+                "example": "0"
+            }
+        }
+    },
+    "habitEdit_habitDailyGoal_negativeErrorText02": "על החובה היומית להיות קטנה או שווה ל־{number}",
+    "@habitEdit_habitDailyGoal_negativeErrorText02": {
+        "description": "maximum number for negative habit daily goal",
+        "placeholders": {
+            "number": {
+                "type": "num",
+                "example": "0"
+            }
+        }
     }
 }
