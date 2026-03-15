@@ -21,29 +21,6 @@
             }
         }
     },
-    "habitEdit_habitDailyGoalExtra_hintText": "Očekávaný maximální denní cíl",
-    "habitEdit_habitDailyGoalExtra_negativeHintText": "Maximální denní limit",
-    "habitEdit_frequencySelector_title": "Zvolte četnost",
-    "habitEdit_habitFreq_daily": "Denní",
-    "habitEdit_habitFreq_perweek_text": "%%time%% za týden",
-    "habitEdit_habitFreq_show_daily": "Denní",
-    "habitEdit_reminder_hintText": "Připomenutí",
-    "habitEdit_reminder_freq_monthHelpText": "Kterýkoli den v měsíci",
-    "habitEdit_reminderQuest_hintText": "Otázka, např. Cvičil jsi dnes?",
-    "habitEdit_reminder_dialogTitle": "Zvolte typ připomenutí",
-    "habitEdit_reminder_dialogType_daily": "Denní",
-    "habitEdit_reminder_dialogConfirm": "Potvrdit",
-    "habitEdit_reminder_dialogCancel": "Zrušit",
-    "habitEdit_reminder_cancelDialogTitle": "Potvrdit",
-    "habitEdit_reminder_cancelDialogConfirm": "Potvrdit",
-    "habitDisplay_archiveHabitsConfirmDialog_confirm": "Potvrdit",
-    "habitDisplay_unarchiveHabitsConfirmDialog_confirm": "Potvrdit",
-    "habitDisplay_sortTypeDialog_confirm": "Potvrdit",
-    "habitDisplay_searchFilter_habitType_groupTitle": "Typ zvyku",
-    "habitDetail_confirmDialog_confirm": "Potvrdit",
-    "batchCheckin_save_button_text": "Uložit",
-    "debug_debuggerInfoCard_saveButton_text": "Uložit",
-    "habitEdit_reminder_cancelDialogCancel": "Zrušit",
     "habitEdit_habitDailyGoal_errorText01": "denní cíl musí být > {number}",
     "@habitEdit_habitDailyGoal_errorText01": {
         "description": "minimum number for habit daily goal",
@@ -84,6 +61,7 @@
             }
         }
     },
+    "habitEdit_habitDailyGoalExtra_hintText": "Očekávaný maximální denní cíl",
     "habitEdit_habitDailyGoalExtra_errorText": "neplatná hodna, musí být prázdné, nebo ≥ {dailyGoal}",
     "@habitEdit_habitDailyGoalExtra_errorText": {
         "placeholders": {
@@ -93,8 +71,14 @@
             }
         }
     },
+    "habitEdit_habitDailyGoalExtra_negativeHintText": "Maximální denní limit",
+    "habitEdit_frequencySelector_title": "Zvolte četnost",
+    "habitEdit_habitFreq_daily": "Denní",
+    "habitEdit_habitFreq_perweek_text": "%%time%% za týden",
     "habitEdit_habitFreq_permonth_text": "%%time%% krát za měsíc",
     "habitEdit_habitFreq_predayfreq_text": "%%time%% krát za %%day%% dnů",
+    "habitEdit_habitFreq_show_daily": "Denní",
+    "habitEdit_reminder_hintText": "Připomenutí",
     "habitEdit_reminder_freq_weekHelpText": "Kterýkoli den v týdnu",
     "habitEdit_reminder_freq_week_text": "{days} každý týden",
     "@habitEdit_reminder_freq_week_text": {
@@ -106,6 +90,7 @@
             }
         }
     },
+    "habitEdit_reminder_freq_monthHelpText": "Kterýkoli den v měsíci",
     "habitEdit_reminder_freq_month_text": "{days} každý měsíc",
     "@habitEdit_reminder_freq_month_text": {
         "description": "Comma-separated day list used in the monthly reminder sentence.",
@@ -116,8 +101,16 @@
             }
         }
     },
+    "habitEdit_reminderQuest_hintText": "Otázka, např. Cvičil jsi dnes?",
+    "habitEdit_reminder_dialogTitle": "Zvolte typ připomenutí",
+    "habitEdit_reminder_dialogType_daily": "Denní",
     "habitEdit_reminder_dialogType_week": "Týdně",
     "habitEdit_reminder_dialogType_month": "Měsíčně",
+    "habitEdit_reminder_dialogConfirm": "Potvrdit",
+    "habitEdit_reminder_dialogCancel": "Zrušit",
+    "habitEdit_reminder_cancelDialogTitle": "Potvrdit",
+    "habitEdit_reminder_cancelDialogConfirm": "Potvrdit",
+    "habitEdit_reminder_cancelDialogCancel": "Zrušit",
     "habitEdit_reminder_weekdayText_monday": "Po",
     "habitEdit_reminder_weekdayText_tuesday": "Út",
     "habitEdit_reminder_weekdayText_wednesday": "St",
@@ -144,12 +137,7 @@
             }
         }
     },
-    "habitDisplay_mainMenu_settingTileText": "Nastavení",
-    "appSetting_appbar_titleText": "Nastavení",
-    "habitDisplay_mainMenu_lightTheme": "Světlý vzhled",
-    "habitDisplay_mainMenu_darkTheme": "Tmavý vzhled",
-    "habitDisplay_mainMenu_followSystemTheme": "Podle systému",
-    "habitDisplay_sortType_manual": "Moje pořadí",
+    "habitDisplay_archiveHabitsConfirmDialog_confirm": "Potvrdit",
     "habitDisplay_archiveHabitsSuccSnackbarText": "Archivováno {count} zvyků",
     "@habitDisplay_archiveHabitsSuccSnackbarText": {
         "placeholders": {
@@ -159,13 +147,26 @@
             }
         }
     },
-    "habitDisplay_statsMenu_archivedTileText": "Archivováno",
-    "habitDisplay_mainMenu_showArchivedTileText": "Zobrazit archivované",
-    "habitDisplay_statsMenu_inProgresTileText": "Probíhající",
+    "habitDisplay_unarchiveHabitsConfirmDialog_confirm": "Potvrdit",
     "habitDisplay_statsMenu_completedTileText": "Dokončené",
+    "habitDisplay_statsMenu_inProgresTileText": "Probíhající",
+    "habitDisplay_statsMenu_archivedTileText": "Archivováno",
+    "habitDisplay_mainMenu_lightTheme": "Světlý vzhled",
+    "habitDisplay_mainMenu_darkTheme": "Tmavý vzhled",
+    "habitDisplay_mainMenu_followSystemTheme": "Podle systému",
+    "habitDisplay_mainMenu_showArchivedTileText": "Zobrazit archivované",
+    "habitDisplay_mainMenu_settingTileText": "Nastavení",
+    "habitDisplay_sortType_manual": "Moje pořadí",
+    "habitDisplay_sortTypeDialog_confirm": "Potvrdit",
     "habitDisplay_searchBar_hintText": "Vyhledat zvyky",
+    "habitDisplay_searchFilter_completed": "Dokončené",
+    "habitDisplay_searchFilter_habitType_groupTitle": "Typ zvyku",
+    "habitDetail_confirmDialog_confirm": "Potvrdit",
+    "appSetting_appbar_titleText": "Nastavení",
     "appSetting_firstDayOfWeek_titleText": "První den v týdnu",
     "appSetting_changeLanguageTile_titleText": "Jazyk",
     "appSetting_changeLanguageDialog_titleText": "Vyberte jazyk",
-    "appSetting_backupAndRestoreSubgroupText": "Záloha a obnovení"
+    "appSetting_backupAndRestoreSubgroupText": "Záloha a obnovení",
+    "batchCheckin_save_button_text": "Uložit",
+    "debug_debuggerInfoCard_saveButton_text": "Uložit"
 }
