@@ -73,11 +73,11 @@
     },
     "habitEdit_habitDailyGoalUnit_hintText": "שם יחידה למטרה היומית",
     "habitEdit_frequencySelector_title": "נא לבחור תדירות",
-    "habitEdit_habitFreq_daily": "",
+    "habitEdit_habitFreq_daily": "בכל יום",
     "habitEdit_habitFreq_perweek_text": "%%time%% פעמים בשבוע",
     "habitEdit_habitFreq_permonth_text": "%%time%% פעמים בחודש",
     "habitEdit_habitFreq_predayfreq_text": "%%time%% פעמים ב־%%day%% ימים",
-    "habitEdit_habitFreq_show_daily": "",
+    "habitEdit_habitFreq_show_daily": "מטרה יומית",
     "habitEdit_targetDays_title": "{targetDays} ימים",
     "@habitEdit_targetDays_title": {
         "placeholders": {
@@ -388,5 +388,66 @@
     "userAction_longTap": "הקשה ארוכה",
     "channelName_habitReminder": "תזכורת להרגל",
     "channelName_appDebugger": "כלי ניפוי שגיאות",
-    "channelName_appSyncFailed": "הסנכרון נכשל"
+    "channelName_appSyncFailed": "הסנכרון נכשל",
+    "habitEdit_habitDailyGoalExtra_errorText": "ערך לא תקני, חייב להיות ריק, שווה או גדול מ־{dailyGoal}",
+    "@habitEdit_habitDailyGoalExtra_errorText": {
+        "placeholders": {
+            "dailyGoal": {
+                "type": "num",
+                "example": "1"
+            }
+        }
+    },
+    "appSync_nowTile_cancelText": "מועד סנכרון אחרון (בוטל): {dateStr}",
+    "@appSync_nowTile_cancelText": {
+        "placeholders": {
+            "dateStr": {
+                "type": "String",
+                "description": "Last sync date."
+            }
+        }
+    },
+    "habitEdit_reminder_dialogConfirm": "אישור",
+    "habitEdit_reminder_dialogCancel": "ביטול",
+    "habitEdit_reminder_cancelDialogConfirm": "אישור",
+    "habitEdit_reminder_cancelDialogCancel": "ביטול",
+    "habitEdit_desc_hintText": "הערה, יש תמיכה ב־Markdown",
+    "habitDisplay_archiveHabitsSuccSnackbarText": "‏{count} הרגלים הועברו לארכיון",
+    "@habitDisplay_archiveHabitsSuccSnackbarText": {
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "1"
+            }
+        }
+    },
+    "habitDisplay_unarchiveHabitsSuccSnackbarText": "‏{count} הרגלים הוצאו מהארכיון",
+    "@habitDisplay_unarchiveHabitsSuccSnackbarText": {
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "1"
+            }
+        }
+    },
+    "habitDisplay_sortType_progress": "לפי דירוג",
+    "habitDisplay_sortTypeDialog_confirm": "אישור",
+    "habitDisplay_sortTypeDialog_cancel": "ביטול",
+    "habitDetail_descTargetDays_unitText": "ימים",
+    "habitDetail_changeGoal_cancelText": "ביטול",
+    "habitDetail_changeGoal_saveText": "שמירה",
+    "habitDetail_skipReason_cancelText": "ביטול",
+    "habitDetail_skipReason_saveText": "שמירה",
+    "appSetting_resetConfigDialog_cancelText": "ביטול",
+    "appSetting_resetConfigDialog_confirmText": "אישור",
+    "appSetting_otherSubgroupText": "שונות",
+    "appSetting_clearCacheDialog_cancelText": "ביטול",
+    "appSetting_clearCacheDialog_confirmText": "אישור",
+    "appSetting_debugger_titleText": "מידע ניפוי שגיאות",
+    "appSync_summaryTile_subtitle_text_notConfigured": "לא מוגדר",
+    "appSync_serverEditor_netTypeTile_titleText": "מצב סנכרון רשת",
+    "experimentalFeatures_habitSearchTile_titleText": "חיפוש הרגלים",
+    "appAbout_licenseTile_subtitleText": "רישיון Apache, גרסה 2.0",
+    "batchCheckin_save_confirmDialog_confirmButton_text": "שמירה",
+    "batchCheckin_save_confirmDialog_cancelButton_text": "ביטול"
 }
