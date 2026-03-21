@@ -71,7 +71,7 @@ class L10nHe extends L10n {
 
   @override
   String habitEdit_habitDailyGoalExtra_errorText(num dailyGoal) {
-    return 'invalid value, must be empty or ≥ $dailyGoal';
+    return 'ערך לא תקני, חייב להיות ריק, שווה או גדול מ־$dailyGoal';
   }
 
   @override
@@ -82,7 +82,7 @@ class L10nHe extends L10n {
   String get habitEdit_frequencySelector_title => 'נא לבחור תדירות';
 
   @override
-  String get habitEdit_habitFreq_daily => '';
+  String get habitEdit_habitFreq_daily => 'בכל יום';
 
   @override
   String get habitEdit_habitFreq_perweek_text => '%%time%% פעמים בשבוע';
@@ -95,7 +95,7 @@ class L10nHe extends L10n {
       '%%time%% פעמים ב־%%day%% ימים';
 
   @override
-  String get habitEdit_habitFreq_show_daily => '';
+  String get habitEdit_habitFreq_show_daily => 'מטרה יומית';
 
   @override
   String habitEdit_habitFreq_show_perweek(int freq) {
@@ -180,10 +180,10 @@ class L10nHe extends L10n {
   String get habitEdit_reminder_dialogType_month => 'לפי חודש';
 
   @override
-  String get habitEdit_reminder_dialogConfirm => 'confirm';
+  String get habitEdit_reminder_dialogConfirm => 'אישור';
 
   @override
-  String get habitEdit_reminder_dialogCancel => 'cancel';
+  String get habitEdit_reminder_dialogCancel => 'ביטול';
 
   @override
   String get habitEdit_reminder_cancelDialogTitle => 'אישור';
@@ -192,10 +192,10 @@ class L10nHe extends L10n {
   String get habitEdit_reminder_cancelDialogSubtitle => 'להסיר תזכורת זו?';
 
   @override
-  String get habitEdit_reminder_cancelDialogConfirm => 'confirm';
+  String get habitEdit_reminder_cancelDialogConfirm => 'אישור';
 
   @override
-  String get habitEdit_reminder_cancelDialogCancel => 'cancel';
+  String get habitEdit_reminder_cancelDialogCancel => 'ביטול';
 
   @override
   String get habitEdit_reminder_weekdayText_monday => 'שני';
@@ -219,7 +219,7 @@ class L10nHe extends L10n {
   String get habitEdit_reminder_weekdayText_sunday => 'ראשון';
 
   @override
-  String get habitEdit_desc_hintText => 'Memo, support Markdown';
+  String get habitEdit_desc_hintText => 'הערה, יש תמיכה ב־Markdown';
 
   @override
   String get habitEdit_create_datetime_prefix => 'נוצר בתאריך: ';
@@ -253,7 +253,7 @@ class L10nHe extends L10n {
 
   @override
   String habitDisplay_archiveHabitsSuccSnackbarText(int count) {
-    return 'Archived $count habits';
+    return '‏$count הרגלים הועברו לארכיון';
   }
 
   @override
@@ -268,7 +268,7 @@ class L10nHe extends L10n {
 
   @override
   String habitDisplay_unarchiveHabitsSuccSnackbarText(int count) {
-    return 'Unarchived $count habits';
+    return '‏$count הרגלים הוצאו מהארכיון';
   }
 
   @override
@@ -388,7 +388,7 @@ class L10nHe extends L10n {
   String get habitDisplay_sortType_colorType => 'לפי צבע';
 
   @override
-  String get habitDisplay_sortType_progress => 'By Rate';
+  String get habitDisplay_sortType_progress => 'לפי דירוג';
 
   @override
   String get habitDisplay_sortType_startT => 'לפי תאריך התחלה';
@@ -400,10 +400,10 @@ class L10nHe extends L10n {
   String get habitDisplay_sortTypeDialog_title => 'מיון';
 
   @override
-  String get habitDisplay_sortTypeDialog_confirm => 'confirm';
+  String get habitDisplay_sortTypeDialog_confirm => 'אישור';
 
   @override
-  String get habitDisplay_sortTypeDialog_cancel => 'cancel';
+  String get habitDisplay_sortTypeDialog_cancel => 'ביטול';
 
   @override
   String get habitDisplay_debug_debugSubgroup_title => '🛠️ ניפוי שגיאות';
@@ -561,7 +561,7 @@ class L10nHe extends L10n {
   }
 
   @override
-  String get habitDetail_descTargetDays_unitText => 'd';
+  String get habitDetail_descTargetDays_unitText => 'ימים';
 
   @override
   String get habitDetail_descRecordsNum_titleText => 'רשומות';
@@ -674,10 +674,10 @@ class L10nHe extends L10n {
   }
 
   @override
-  String get habitDetail_changeGoal_cancelText => 'cancel';
+  String get habitDetail_changeGoal_cancelText => 'ביטול';
 
   @override
-  String get habitDetail_changeGoal_saveText => 'save';
+  String get habitDetail_changeGoal_saveText => 'שמירה';
 
   @override
   String get habitDetail_skipReason_title => 'סיבה לדילוג';
@@ -686,10 +686,10 @@ class L10nHe extends L10n {
   String get habitDetail_skipReason_bodyHelpText => 'אפשר לכתוב כאן...';
 
   @override
-  String get habitDetail_skipReason_cancelText => 'cancel';
+  String get habitDetail_skipReason_cancelText => 'ביטול';
 
   @override
-  String get habitDetail_skipReason_saveText => 'save';
+  String get habitDetail_skipReason_saveText => 'שמירה';
 
   @override
   String get appSetting_appbar_titleText => 'הגדרות';
@@ -872,17 +872,17 @@ class L10nHe extends L10n {
       'Reset all configs to default, must restart application to apply.';
 
   @override
-  String get appSetting_resetConfigDialog_cancelText => 'cancel';
+  String get appSetting_resetConfigDialog_cancelText => 'ביטול';
 
   @override
-  String get appSetting_resetConfigDialog_confirmText => 'confirm';
+  String get appSetting_resetConfigDialog_confirmText => 'אישור';
 
   @override
   String get appSetting_resetConfigSuccess_snackbarText =>
       'reset app configs succeed';
 
   @override
-  String get appSetting_otherSubgroupText => 'Others';
+  String get appSetting_otherSubgroupText => 'שונות';
 
   @override
   String get appSetting_developMode_titleText => 'מצב מפתחים';
@@ -898,10 +898,10 @@ class L10nHe extends L10n {
       'After clearing cache, some custom values will be restored to defaults.';
 
   @override
-  String get appSetting_clearCacheDialog_cancelText => 'cancel';
+  String get appSetting_clearCacheDialog_cancelText => 'ביטול';
 
   @override
-  String get appSetting_clearCacheDialog_confirmText => 'confirm';
+  String get appSetting_clearCacheDialog_confirmText => 'אישור';
 
   @override
   String get appSetting_clearCache_snackBar_partSuccText =>
@@ -915,7 +915,7 @@ class L10nHe extends L10n {
   String get appSetting_clearCache_snackBar_failText => 'Cache cleared failed';
 
   @override
-  String get appSetting_debugger_titleText => 'Debug Info';
+  String get appSetting_debugger_titleText => 'מידע ניפוי שגיאות';
 
   @override
   String get appSetting_about_titleText => 'על אודות';
@@ -995,7 +995,7 @@ class L10nHe extends L10n {
 
   @override
   String appSync_nowTile_cancelText(String dateStr) {
-    return 'Last Sync (Cancelled): $dateStr';
+    return 'מועד סנכרון אחרון (בוטל): $dateStr';
   }
 
   @override
@@ -1124,8 +1124,7 @@ class L10nHe extends L10n {
   String get appSync_summaryTile_title => 'Sync Server';
 
   @override
-  String get appSync_summaryTile_subtitle_text_notConfigured =>
-      'Not Configured';
+  String get appSync_summaryTile_subtitle_text_notConfigured => 'לא מוגדר';
 
   @override
   String get appSync_exportAllLogsTile_exportSubjectText =>
@@ -1242,7 +1241,7 @@ class L10nHe extends L10n {
   }
 
   @override
-  String get appSync_serverEditor_netTypeTile_titleText => 'Network Sync Mode';
+  String get appSync_serverEditor_netTypeTile_titleText => 'מצב סנכרון רשת';
 
   @override
   String appSync_serverEditor_netTypeTile_typeTooltip(String type) {
@@ -1296,7 +1295,7 @@ class L10nHe extends L10n {
   }
 
   @override
-  String get experimentalFeatures_habitSearchTile_titleText => 'Habit Search';
+  String get experimentalFeatures_habitSearchTile_titleText => 'חיפוש הרגלים';
 
   @override
   String get experimentalFeatures_habitSearchTile_subtitleText =>
@@ -1330,7 +1329,7 @@ class L10nHe extends L10n {
   String get appAbout_licenseTile_titleText => 'רישיון';
 
   @override
-  String get appAbout_licenseTile_subtitleText => 'Apache License, Version 2.0';
+  String get appAbout_licenseTile_subtitleText => 'רישיון Apache, גרסה 2.0';
 
   @override
   String get appAbout_licenseThirdPartyTile_titleText =>
@@ -1453,10 +1452,10 @@ class L10nHe extends L10n {
       'Existing records will be overwritten After saving, previous records will be lost.';
 
   @override
-  String get batchCheckin_save_confirmDialog_confirmButton_text => 'save';
+  String get batchCheckin_save_confirmDialog_confirmButton_text => 'שמירה';
 
   @override
-  String get batchCheckin_save_confirmDialog_cancelButton_text => 'cancel';
+  String get batchCheckin_save_confirmDialog_cancelButton_text => 'ביטול';
 
   @override
   String get batchCheckin_close_confirmDialog_title => 'Confirm Return';
