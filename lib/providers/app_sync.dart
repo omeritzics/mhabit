@@ -346,7 +346,7 @@ class AppSyncViewModel
       }
       return Future.wait([
         removeOldPasswordTask,
-        if (postTask != null) postTask,
+        ?postTask,
       ]).then((results) => results.every((e) => e));
     }
 
